@@ -1,0 +1,33 @@
+.aside {
+    padding: 20px;
+    grid-area: a;
+    background-color: darkseagreen;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.item {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+.link {
+    text-decoration: none;
+    color: #ffffff;
+    user-select: none;
+    transition: color .5s;
+}
+
+.link:hover {
+    color: tomato;
+}
+
+.link.active {
+    color: dodgerblue;
+    pointer-events: none;
+}

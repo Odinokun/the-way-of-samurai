@@ -1,0 +1,22 @@
+.header {
+    padding: 20px;
+    grid-area: h;
+    background-color: darkseagreen;
+}
+
+.logo {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+    display: block;
+    cursor: pointer;
+}
+
+.logo img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+}
