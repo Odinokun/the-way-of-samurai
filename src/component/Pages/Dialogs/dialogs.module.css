@@ -1,40 +1,40 @@
 .dialogs {
-    padding: 20px;
+  padding: 20px;
 }
 
 .title {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .dialogs__body {
-    display: flex;
+  display: flex;
 }
 
 .dialogs__list {
-    margin: 0;
-    padding: 0 20px 0 0;
-    flex: none;
-    border-right: 1px solid #000;
-    list-style: none;
+  flex: none;
+  margin: 0;
+  padding: 0 20px 0 0;
+  list-style: none;
+  border-right: 1px solid #000;
 }
 
 .dialogs__item {
-    display: block;
-    margin-bottom: 10px;
-    text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
 }
 
 .dialogs__item.active {
-    color: tomato;
+  color: tomato;
 }
 
 .messages__list {
-    margin: 0;
-    padding: 0 0 0 20px;
-    list-style: none;
+  margin: 0;
+  padding: 0 0 0 20px;
+  list-style: none;
 }
 
 .messages__item {
-    display: block;
-    margin-bottom: 10px;
+  display: block;
+  margin-bottom: 10px;
 }

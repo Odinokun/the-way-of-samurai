@@ -1,33 +1,33 @@
 .aside {
-    padding: 20px;
-    grid-area: a;
-    background-color: darkseagreen;
+  grid-area: a;
+  padding: 20px;
+  background-color: darkseagreen;
 }
 
 .menu {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .item {
-    text-transform: uppercase;
-    margin-bottom: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 
 .link {
-    text-decoration: none;
-    color: #ffffff;
-    user-select: none;
-    transition: color .5s;
+  user-select: none;
+  transition: color .5s;
+  text-decoration: none;
+  color: #fff;
 }
 
 .link:hover {
-    color: tomato;
+  color: tomato;
 }
 
 .link.active {
-    color: dodgerblue;
-    pointer-events: none;
+  pointer-events: none;
+  color: dodgerblue;
 }

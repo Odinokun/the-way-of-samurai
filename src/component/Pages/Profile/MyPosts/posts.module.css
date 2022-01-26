@@ -1,37 +1,37 @@
 .posts {
-    padding: 20px;
+  padding: 20px;
 }
 
 .title {
-    margin-bottom: 20px;
-    color: #ffffff;
+  margin-bottom: 20px;
+  color: #fff;
 }
 
 .textarea {
-    margin-bottom: 10px;
-    display: block;
-    background-color: transparent;
-    min-height: 150px;
-    width: 100%;
-    max-width: 300px;
-    border: 2px solid #fff;
-    padding: 10px 20px;
-    color: #fff;
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  min-height: 150px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  color: #fff;
+  border: 2px solid #fff;
+  background-color: transparent;
 }
 
 .btn {
-    display: block;
-    margin-right: 10px;
-    cursor: pointer;
-    background-color: darkseagreen;
-    border: 2px solid darkseagreen;
-    transition: opacity .3s;
-    padding: 5px 30px;
-    color: #fff;
-    margin-bottom: 40px;
-    box-shadow: none;
+  display: block;
+  margin-right: 10px;
+  margin-bottom: 40px;
+  padding: 5px 30px;
+  cursor: pointer;
+  transition: opacity .3s;
+  color: #fff;
+  border: 2px solid darkseagreen;
+  background-color: darkseagreen;
+  box-shadow: none;
 }
 
 .btn:hover {
-    opacity: .8;
+  opacity: .8;
 }

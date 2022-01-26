@@ -10,22 +10,22 @@ import {Music} from "./component/Pages/Music/Music";
 import {Settings} from "./component/Pages/Settings/Settings";
 
 function App() {
-    return (
-        <div className={s.wrap}>
-            <Header/>
-            <Aside/>
-            <main className={s.main}>
-                <Routes>
-                    <Route path='/' element={<Profile/>}/> {/*костыль*/}
-                    <Route path='/profile' element={<Profile/>}/>
-                    <Route path='/dialogs' element={<Dialogs/>}/>
-                    <Route path='/news' element={<News/>}/>
-                    <Route path='/music' element={<Music/>}/>
-                    <Route path='/settings' element={<Settings/>}/>
-                </Routes>
-            </main>
-        </div>
-    );
+  return (
+    <div className={s.wrap}>
+      <Header/>
+      <Aside/>
+      <main className={s.main}>
+        <Routes>
+          <Route path='/' element={<Profile/>}/> {/*костыль*/}
+          <Route path='/profile' element={<Profile/>}/>
+          <Route path='/dialogs' element={<Dialogs/>}/>
+          <Route path='/news' element={<News/>}/>
+          <Route path='/music' element={<Music/>}/>
+          <Route path='/settings' element={<Settings/>}/>
+        </Routes>
+      </main>
+    </div>
+  );
 }
 
 export default App;

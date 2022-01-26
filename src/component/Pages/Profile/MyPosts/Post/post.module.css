@@ -1,49 +1,49 @@
 .post {
-    margin-bottom: 20px;
-    list-style: none;
-    display: flex;
+  display: flex;
+  margin-bottom: 20px;
+  list-style: none;
 }
 
-.post__content {
-}
+
 
 .avatar {
-    flex: none;
-    margin-right: 20px;
-    width: 70px;
-    height: 70px;
-    overflow: hidden;
-    border-radius: 50%;
+  overflow: hidden;
+  flex: none;
+  width: 70px;
+  height: 70px;
+  margin-right: 20px;
+  border-radius: 50%;
 }
 
 .avatar img {
-    width: 70px;
-    height: 70px;
-    object-position: center;
-    object-fit: cover;
-    display: block;
+  display: block;
+  width: 70px;
+  height: 70px;
+
+  object-position: center;
+  object-fit: cover;
 }
 
 .text {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .reactions {
-    display: flex;
+  display: flex;
 }
 
 .reaction__btn {
-    margin-right: 10px;
-    cursor: pointer;
-    background-color: darkseagreen;
-    border: 2px solid darkseagreen;
-    display: inline-block;
-    transition: opacity .3s;
-    padding: 5px 30px;
-    color: #fff;
-    box-shadow: none;
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px 30px;
+  cursor: pointer;
+  transition: opacity .3s;
+  color: #fff;
+  border: 2px solid darkseagreen;
+  background-color: darkseagreen;
+  box-shadow: none;
 }
 
 .reaction__btn:hover {
-    opacity: .8;
+  opacity: .8;
 }
